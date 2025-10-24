@@ -22,7 +22,8 @@
     1. Go to home directory with `cd ..` 
     1. Upgrade ipykernel with `pip install --upgrade pip ipykernel` 
     1. Install a kernel with `CAS_NLP_M4/.venv/bin/python -m ipykernel install --user --name cas-nlp --display-name "Python(cas-nlp)"`
-    2. Activate the jupyter lab with `jupyter lab --no-browser --port 8891` and copy the path under the notebook "select kernel". 
+    2. Activate the jupyter lab with `jupyter lab --no-browser --port 8891` 
+    3. Copy the path "http://localhost:8891/lab?token=YOUR_TOKEN" under the notebook "select kernel -> Existing Jupyter Server -> Path" and press enter. 
 
 # Before each session
 1. Create a new session with 
@@ -38,7 +39,8 @@
     9. Once the session has started, open it. 
 2. Change into the directory with `cd CAS_NLP_M4`
 3. Pull latest github repo updates with `git pull`
-3. Set the kernel to this new python environment on the notebook. 
+4. Set the kernel to this new python environment on the notebook. If kernel is not found, repeat the steps mentioned in **First Time Steps**
+
 
 CAS_NLP_M4/.venv/bin/python -m pip install -U ipykernel
 
