@@ -19,6 +19,7 @@
 5. Activate the virtual environment with `source .venv/bin/activate`
 6. Install the requirements wit `pip install -r requirements.txt`
 7. Set the kernel to this new python environment on the notebook. If kernel is not found
+    1. Go to home directory with `cd ..` 
     1. Upgrade ipykernel with `pip install --upgrade pip ipykernel` 
     1. Install a kernel with `CAS_NLP_M4/.venv/bin/python -m ipykernel install --user --name cas-nlp --display-name "Python(cas-nlp)"`
     2. Activate the jupyter lab with `jupyter lab --no-browser --port 8891` and copy the path under the notebook "select kernel". 
