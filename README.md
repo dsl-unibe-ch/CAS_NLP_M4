@@ -49,6 +49,7 @@
 3. Create venv `conda create --name myenv`
 4. Conda create `conda activate myenv`
 5. Install pip requirements with `pip install -r requirements.txt`
+6. Create kernel `python -m ipykernel install --user --name conda_kernel`
 
 CAS_NLP_M4/.venv/bin/python -m pip install -U ipykernel
 
