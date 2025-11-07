@@ -43,6 +43,13 @@
 4. Set the kernel to this new python environment on the notebook. If kernel is not found, repeat the steps mentioned in **First Time Steps**
 
 
+## Conda steps
+1. load anaconda `module load Anaconda3`
+2. Initialise conda `eval "$(conda shell.bash hook)"`
+3. Create venv `conda create --name myenv`
+4. Conda create `conda activate myenv`
+5. Install pip requirements with `pip install -r requirements.txt`
+
 CAS_NLP_M4/.venv/bin/python -m pip install -U ipykernel
 
 # Useful Links
