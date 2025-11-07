@@ -4,9 +4,10 @@
 2. Create a new session with 
     1. GPU-Type - RTX 4090
     2. Time - 2 hours
-    3. Instance - small or medium
+    3. Instance - small or medium.
     4. Cuda - 12.1
-    5. Mode - VS Code or Jupyter Lab
+    5. Mode - VS Code or Jupyter Lab.
+    6. Set `QOS` to `job_reservation`.
     6. Select the Advanced mode checkbox
         1. Reservation = CAS_NLP_4
     7. Select the email on start and give your email.
