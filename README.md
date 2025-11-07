@@ -46,6 +46,9 @@
 ## Conda steps
 1. load anaconda `module load Anaconda3`
 2. Initialise conda `eval "$(conda shell.bash hook)"`
+3. Add conda source
+    1. `conda config --add channels conda-forge`
+    2. `conda config --set channel_priority strict`
 3. Create venv `conda create --name myenv`
 4. Conda create `conda activate myenv`
 5. Install pip requirements with `pip install -r requirements.txt`
