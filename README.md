@@ -7,9 +7,9 @@
     3. Instance - small or medium.
     4. Cuda - 12.1
     5. Mode - Jupyter Lab.
-    6. Account : teaching
-    7. wckey: blank
-    8. Partition: teaching (GPU)
+    6. Account : `teaching`
+    7. wckey: Leave it blank
+    8. Partition: `teaching (GPU)`
     9. Select the Advanced mode checkbox
         1. Reservation = `CAS_NLP_4`
     10. Select the email on start and give your email.
