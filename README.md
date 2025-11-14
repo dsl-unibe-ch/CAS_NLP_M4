@@ -5,7 +5,7 @@
     1. GPU-Type - RTX 4090
     2. Time - 2 hours
     3. Instance - small or medium.
-    4. Cuda - 12.1
+    4. Cuda - 12.8
     5. Mode - Jupyter Lab.
     6. Account : `teaching`
     7. wckey: Leave it blank
