@@ -27,7 +27,8 @@
 10. Conda activate environment `conda activate myenv`
 11. Install pip requirements with `pip install -r requirements.txt`
 12. Create kernel `python -m ipykernel install --user --name conda_kernel`
-13. Set the kernel to this new conda environment `conda_kernel` on the notebook. 
+13. Set the kernel to this new conda environment `conda_kernel` on the notebook.
+14. Create an account on Huggingface and create an access token. Make a `.env` file by copying the contents of `.env.example`. Inside `.env` file, assign the access token to the variable `HF_TOKEN`.
 
 # Before each session
 1. Perform the steps 1, 2, 4, 5, 10 from [First Time Steps](#first-time-steps).
