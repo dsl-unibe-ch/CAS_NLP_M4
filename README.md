@@ -7,12 +7,14 @@
     3. Instance - small or medium.
     4. Cuda - 12.1
     5. Mode - Jupyter Lab.
-    6. Set `QOS` to `job_reservation` if `QOS` ispresent.
-    6. Select the Advanced mode checkbox
+    6. Account : teaching
+    7. wckey: blank
+    8. Partition: teaching (GPU)
+    9. Select the Advanced mode checkbox
         1. Reservation = `CAS_NLP_4`
-    7. Select the email on start and give your email.
-    8. Submit.
-    9. Once the session has started, open it. 
+    10. Select the email on start and give your email.
+    11. Submit.
+    12. Once the session has started, open it. 
 3. On the terminal, fork the github repository with `git clone https://github.com/dsl-unibe-ch/CAS_NLP_M4.git`
 4. Change into the directory with `cd CAS_NLP_M4`
 5. Load Anaconda `module load Anaconda3`
