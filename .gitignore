@@ -2,3 +2,4 @@
 models
 .ipynb_checkpoints/
 Session1/.ipynb_checkpoints/
+.env
