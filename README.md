@@ -24,7 +24,7 @@
     1. `conda config --add channels conda-forge`
     2. `conda config --set channel_priority strict`
 9. Create venv `conda create --name myenv`
-10. Conda create `conda activate myenv`
+10. Conda activate environment `conda activate myenv`
 11. Install pip requirements with `pip install -r requirements.txt`
 12. Create kernel `python -m ipykernel install --user --name conda_kernel`
 13. Set the kernel to this new conda environment `conda_kernel` on the notebook. 
