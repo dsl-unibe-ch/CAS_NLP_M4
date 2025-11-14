@@ -7,7 +7,7 @@
     3. Instance - small or medium.
     4. Cuda - 12.1
     5. Mode - Jupyter Lab.
-    6. Set `QOS` to `job_reservation`.
+    6. Set `QOS` to `job_reservation` if `QOS` ispresent.
     6. Select the Advanced mode checkbox
         1. Reservation = `CAS_NLP_4`
     7. Select the email on start and give your email.
