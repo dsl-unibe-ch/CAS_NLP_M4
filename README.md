@@ -35,6 +35,11 @@
 2. Pull latest github repo updates with `git pull`. In case of conflicts, resolve them. 
 4. Perform the steps 13 from [First Time Steps](#first-time-steps).
 
-
+# Update the kernel
+From your home directory
+``` 
+conda activate .conda/envs/myenv/ 
+pip install -r CAS_NLP_M4/requirements.txt 
+```
 # Useful Links
 1. [Ubelix HPC guide](https://hpc-unibe-ch.github.io/)
