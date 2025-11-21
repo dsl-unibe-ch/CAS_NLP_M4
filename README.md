@@ -41,5 +41,15 @@ From your home directory
 conda activate .conda/envs/myenv/ 
 pip install -r CAS_NLP_M4/requirements.txt 
 ```
+
+# Access tokens
+
+To supply the tokens to the notebook, you may use 
+
+`from huggingface_hub import notebook_login
+notebook_login()`
+
+For more information visit `https://huggingface.co/docs/hub/security-tokens`
+
 # Useful Links
 1. [Ubelix HPC guide](https://hpc-unibe-ch.github.io/)
