@@ -46,8 +46,10 @@ pip install -r CAS_NLP_M4/requirements.txt
 
 To supply the tokens to the notebook, you may use 
 
-`from huggingface_hub import notebook_login
-notebook_login()`
+```
+from huggingface_hub import notebook_login
+notebook_login()
+```
 
 For more information visit `https://huggingface.co/docs/hub/security-tokens`
 
