@@ -35,6 +35,13 @@
 2. Pull latest github repo updates with `git pull`. In case of conflicts, resolve them. 
 4. Perform the steps 13 from [First Time Steps](#first-time-steps).
 
+# Recreating a new env/ kernel
+In case of conflicts, you may create a new conda env and kernel again.
+1. `conda create -n llm-cu128 python=3.11 -y`
+2. `conda activate llm-cu128`
+3. `python -m pip install -U pip`
+4. `python -m pip install -r requirements.txt`
+5. `python -m ipykernel install --user --name llm-cu128 --display-name "Python (llm-cu128)"`
 
 # Useful Links
 1. [Ubelix HPC guide](https://hpc-unibe-ch.github.io/)
